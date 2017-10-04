@@ -4,12 +4,18 @@ import { connect } from 'react-redux'
 import logo from './logo.svg';
 import './App.css';
 import VechilesGrid from './components/vechilesGrid'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class App extends Component {
-  render() {
+  componentDidMount() {
     let { dispatch } = this.props;
     dispatch(LoadVechiles());
+  }
+  render() {
     let { vechiles } = this.props
+
+
+
     return (
       <div className="App">
         <header className="App-header">
@@ -20,9 +26,14 @@ class App extends Component {
     );
   }
 }
-function mapDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch) {
   return {
-    dispatch 
+    dispatch
   }
 }
-export default connect(mapDispatchToProps )(App) ;
+function mapStateToProps(state) {
+  return {
+    vechiles: state.vechiles
+  }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(App);

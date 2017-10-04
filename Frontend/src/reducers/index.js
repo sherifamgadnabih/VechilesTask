@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
-import { Vechiles } from './vechiles'
+import { vechiles } from './vechiles'
 const App = combineReducers({
-    Vechiles
+    vechiles
 });
 
 export default App;
