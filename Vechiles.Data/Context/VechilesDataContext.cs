@@ -14,7 +14,6 @@ namespace Vechiles.Data.Context
         public VechilesDataContext() : base("dataContext")
         {
             this.Configuration.LazyLoadingEnabled = true;
-            this.Configuration.ProxyCreationEnabled = false;
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

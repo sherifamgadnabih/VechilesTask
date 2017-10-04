@@ -36,7 +36,10 @@ namespace Vechiles.Web
              builder.RegisterType<VechilesDataContext>().As<DbContext>();
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Vechile, VechileDTO>();
+                cfg.CreateMap<Vechile, VechileDTO>()
+                .ForMember(c => c.CustomerName, exp => exp.MapFrom(s => s.Customer.Name)).
+                ForMember(c => c.CustomerAddress, exp => exp.MapFrom(s => s.Customer.Address));
+                cfg.CreateMap<Customer, CustomerDTO>();
             });
             builder.RegisterInstance(config)
                 .As<IConfigurationProvider>();

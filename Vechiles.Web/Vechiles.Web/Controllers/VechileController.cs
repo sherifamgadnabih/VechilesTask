@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using System.Web.Routing;
+using Vechiles.DTO;
 using Vechiles.Models;
 using Vechiles.Repository;
 using Vechiles.Specification;
@@ -16,18 +17,16 @@ namespace Vechiles.Web.Controllers
     public class VechileController : ApiController
     {
         private IRepository<Vechile> _vechileRepository;
-        private IUnitOfWorkFactory _unitOfWorkFactory;
-        public VechileController(IRepository<Vechile> vechileRepository, IUnitOfWorkFactory unitOfWorkFactory)
+        public VechileController(IRepository<Vechile> vechileRepository)
         {
             _vechileRepository = vechileRepository;
-            _unitOfWorkFactory = unitOfWorkFactory;
         }
         [HttpGet]
         [Route]
-        [ResponseType(typeof(IEnumerable<Vechile>))]
+        [ResponseType(typeof(IEnumerable<VechileDTO>))]
         public IHttpActionResult GetAllVechiles()
         {
-            return Ok(_vechileRepository.());
+            return Ok(_vechileRepository.GetAll<VechileDTO>());
         }
         [HttpPost]
         [Route("{id}")]

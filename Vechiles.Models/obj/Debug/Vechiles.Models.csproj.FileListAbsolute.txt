@@ -4,3 +4,8 @@ C:\VechilesTask\Vechiles.Models\obj\Debug\Vechiles.Models.csprojResolveAssemblyR
 C:\VechilesTask\Vechiles.Models\obj\Debug\Vechiles.Models.csproj.CoreCompileInputs.cache
 C:\VechilesTask\Vechiles.Models\obj\Debug\Vechiles.Models.dll
 C:\VechilesTask\Vechiles.Models\obj\Debug\Vechiles.Models.pdb
+E:\Projects\Alten\sherif\VechilesTask\Vechiles.Models\bin\Debug\Vechiles.Models.dll
+E:\Projects\Alten\sherif\VechilesTask\Vechiles.Models\bin\Debug\Vechiles.Models.pdb
+E:\Projects\Alten\sherif\VechilesTask\Vechiles.Models\obj\Debug\Vechiles.Models.csprojResolveAssemblyReference.cache
+E:\Projects\Alten\sherif\VechilesTask\Vechiles.Models\obj\Debug\Vechiles.Models.dll
+E:\Projects\Alten\sherif\VechilesTask\Vechiles.Models\obj\Debug\Vechiles.Models.pdb
