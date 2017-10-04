@@ -1,0 +1,5 @@
+C:\VechilesTask\Vechiles.Specification\bin\Debug\Vechiles.Specification.dll
+C:\VechilesTask\Vechiles.Specification\bin\Debug\Vechiles.Specification.pdb
+C:\VechilesTask\Vechiles.Specification\obj\Debug\Vechiles.Specification.csproj.CoreCompileInputs.cache
+C:\VechilesTask\Vechiles.Specification\obj\Debug\Vechiles.Specification.dll
+C:\VechilesTask\Vechiles.Specification\obj\Debug\Vechiles.Specification.pdb

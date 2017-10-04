@@ -1,0 +1,16 @@
+C:\VechilesTask\Vechiles.Repository\obj\Debug\Vechiles.Repository.csprojResolveAssemblyReference.cache
+C:\VechilesTask\Vechiles.Repository\obj\Debug\Vechiles.Repository.csproj.CoreCompileInputs.cache
+C:\VechilesTask\Vechiles.Repository\bin\Debug\Vechiles.Repository.dll
+C:\VechilesTask\Vechiles.Repository\bin\Debug\Vechiles.Repository.pdb
+C:\VechilesTask\Vechiles.Repository\bin\Debug\AutoMapper.dll
+C:\VechilesTask\Vechiles.Repository\bin\Debug\EntityFramework.dll
+C:\VechilesTask\Vechiles.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\VechilesTask\Vechiles.Repository\bin\Debug\Vechiles.Specification.dll
+C:\VechilesTask\Vechiles.Repository\bin\Debug\Vechiles.Utility.dll
+C:\VechilesTask\Vechiles.Repository\bin\Debug\Vechiles.Specification.pdb
+C:\VechilesTask\Vechiles.Repository\bin\Debug\Vechiles.Utility.pdb
+C:\VechilesTask\Vechiles.Repository\bin\Debug\AutoMapper.xml
+C:\VechilesTask\Vechiles.Repository\bin\Debug\EntityFramework.xml
+C:\VechilesTask\Vechiles.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\VechilesTask\Vechiles.Repository\obj\Debug\Vechiles.Repository.dll
+C:\VechilesTask\Vechiles.Repository\obj\Debug\Vechiles.Repository.pdb

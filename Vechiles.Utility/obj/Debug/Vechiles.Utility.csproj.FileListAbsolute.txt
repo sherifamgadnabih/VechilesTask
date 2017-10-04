@@ -1,0 +1,6 @@
+C:\VechilesTask\Vechiles.Utility\bin\Debug\Vechiles.Utility.dll
+C:\VechilesTask\Vechiles.Utility\bin\Debug\Vechiles.Utility.pdb
+C:\VechilesTask\Vechiles.Utility\obj\Debug\Vechiles.Utility.csprojResolveAssemblyReference.cache
+C:\VechilesTask\Vechiles.Utility\obj\Debug\Vechiles.Utility.csproj.CoreCompileInputs.cache
+C:\VechilesTask\Vechiles.Utility\obj\Debug\Vechiles.Utility.dll
+C:\VechilesTask\Vechiles.Utility\obj\Debug\Vechiles.Utility.pdb
